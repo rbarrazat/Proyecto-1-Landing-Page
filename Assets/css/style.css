@@ -116,7 +116,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0 2em;
-  min-height: 15em;
+  min-height: 5em;
 }
 h3 {
   width: 100%;
