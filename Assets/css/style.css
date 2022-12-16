@@ -1,0 +1,193 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.header {
+    overflow: hidden;
+    background-color:#F0E6EF;
+    padding: 0px;
+    min-height: fit-content;
+  }
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a:hover {
+    background-color: #F0A6CA;
+    color: white;
+  }
+  
+  .header a.active {
+    background-color:#F0A6CA;
+    color: white;
+  }
+    .header-right {
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    right: 70px;
+    bottom: 10px;
+    display: inline;
+}
+
+  .hero {
+    background-color: #B8BEDD;
+    background-image: url("https://macyscakes.com/wp-content/uploads/2022/01/Lunch-box-cakes-1-scaled.jpg");
+    background-size: cover;
+    padding: 4rem 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+
+  @media all and (max-width: 600px) {
+    .logo { display:none; }
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #F0E6EF;
+  font-style: oblique;
+}
+
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card
+{
+  margin-bottom: 25px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem 1rem 1rem 1rem;
+  padding:1rem 1rem 1rem 1rem;
+  border: 2px solid lightgray;
+  border-radius: 0.5rem;
+}
+
+.post__header {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.hero1 {
+  background-color: #F0E6EF;
+  background-size: cover;
+  padding: 4rem 4rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.adicionales {
+  background-color: #B8BEDD ;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  padding: 25px 25px 25px 25px;
+}
+
+footer {
+  background-color: #F0E6EF;
+  color: black;
+
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: black;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #F0A6CA;
+}
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+
+}
