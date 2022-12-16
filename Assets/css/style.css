@@ -100,7 +100,7 @@ h4 {
 
 footer {
   background-color: #F0E6EF;
-  color: black;
+  color: grey;
 
 }
 .row {
@@ -108,8 +108,8 @@ footer {
 }
 .row.primary {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
-  align-items: stretch;
+  grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 .column {
   width: 100%;
@@ -121,67 +121,19 @@ footer {
 h3 {
   width: 100%;
   text-align: left;
-  color: black;
+  color: grey;
 }
 ul {
   list-style: none;
   display: flex;
   flex-direction: column;
 }
-li:not(:first-child) {
-  margin-top: 0.8em;
-}
+
 ul li a {
-  color: black;
+  color: grey;
   text-decoration: none;
 }
 ul li a:hover {
-  color: #2a8ded;
-}
-.about p {
-  text-align: justify;
-  line-height: 2;
-  margin: 0;
-}
-input,
-button {
-  font-size: 1em;
-  padding: 1em;
-  width: 100%;
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-button {
-  background-color: #c7940a;
-  color: #ffffff;
-}
-div.social {
-  display: flex;
-  justify-content: space-around;
-  font-size: 2.4em;
-  flex-direction: row;
-  margin-top: 0.5em;
-}
-.social i {
-  color: #bac6d9;
-}
-
-.copyright {
-  padding: 0.3em 1em;
-  background-color: #25262e;
-}
-.footer-menu{
-  float: left;
-    margin-top: 10px;
-}
-
-.footer-menu a{
-  color: #cfd2d6;
-  padding: 6px;
-
-  text-decoration: none;
-}
-.footer-menu a:hover{
   color: #F0A6CA;
 }
 
